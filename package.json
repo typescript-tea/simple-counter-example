@@ -1,0 +1,28 @@
+{
+  "name": "@typescript-tea/simple-counter-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-tea/core": "^0.1.0",
+    "@typescript-tea/react-runtime": "^0.1.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "ts-exhaustive-check": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "rimraf": "^3.0.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "tsc -b --clean && rimraf lib",
+    "start": "webpack-dev-server"
+  }
+}
