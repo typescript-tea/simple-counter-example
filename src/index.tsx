@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { exhaustiveCheck } from "ts-exhaustive-check";
 import { Dispatch, Program } from "@typescript-tea/core";
-import { reactRuntime } from "@typescript-tea/react-runtime";
 
 // -- STATE
 
@@ -48,8 +47,8 @@ const program: Program<State, Action, JSX.Element> = {
   view
 };
 
-// -- RUNTIME
+// -- RUN
 
-const Root = reactRuntime(program, []);
 const app = document.getElementById("app");
-ReactDOM.render(<Root />, app);
+const render = (view: JSX.Element) => ReactDOM.render(view, app);
+Program.run(program, render);

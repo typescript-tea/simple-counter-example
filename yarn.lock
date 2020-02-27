@@ -46,12 +46,10 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@typescript-tea/core@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@typescript-tea/core/-/core-0.1.0.tgz#1a5b29a9f9ec0e23526203db60e837ed1f0de2c3"
-  integrity sha512-pESCBDcz38fwzcXJD+L05VKV+/IODfjyTCkbW29+MfFpKQehjN/iNfJEHHzP7FyXWYiCn4IhGUnzZto3Xns2GQ==
-  dependencies:
-    ts-exhaustive-check "^1.0.0"
+"@typescript-tea/core@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@typescript-tea/core/-/core-0.2.0.tgz#c196dc8973cd6742957f2951f4e5cb1d8eb42b1b"
+  integrity sha512-8yQGb5QGF4pKJA2yvk/mHtb9vTdl1nVgTPVECJ84YyuARFiPvW7CI4lU1gtTinboStjAHQgFTaiaMwWfuPX5/g==
 
 "@typescript-tea/react-runtime@^0.1.1":
   version "0.1.1"
