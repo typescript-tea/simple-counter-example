@@ -1679,6 +1679,11 @@ hpack.js@^2.1.6:
     readable-stream "^2.0.1"
     wbuf "^1.1.0"
 
+htm@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/htm/-/htm-3.0.3.tgz#376163975363b3101dc9154046b1200f87790fcc"
+  integrity sha512-+LZu7FSZJNo/mGhF5zOgyLdcYTQ8brOqwJFXwP/F/Q9IyvBp3HcYT1tk5A6rf67NEW0VEV+2Y8O4pMGmBIci/w==
+
 html-entities@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/html-entities/-/html-entities-1.2.1.tgz#0df29351f0721163515dfb9e5543e5f6eed5162f"

@@ -33,9 +33,9 @@ const view = ({
   readonly state: State;
 }) => (
   <div>
-    <button onClick={() => dispatch({ type: "Decrement" })}>-</button>
-    <div>{state}</div>
     <button onClick={() => dispatch({ type: "Increment" })}>+</button>
+    <div>{state}</div>
+    <button onClick={() => dispatch({ type: "Decrement" })}>-</button>
   </div>
 );
 
